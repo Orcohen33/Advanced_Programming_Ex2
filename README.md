@@ -1,6 +1,5 @@
-# Threaded RSA File Encryption/Decryption
-This project demonstrates a multi-threaded implementation of the RSA encryption and decryption algorithms for file input/output.
-The program generates an RSA public-private key pair with a key length of 2048 bits and then allows the user to encrypt and decrypt files using those keys.
+# Threaded File Encryption/Decryption
+This project demonstrates a multi-threaded implementation of encryption and decryption algorithms for file input/output.
 The program can handle files of any size by processing them in chunks of 1024 bits per thread, with the number of threads determined by the number of cores available on the system.
 
 ## Usage
